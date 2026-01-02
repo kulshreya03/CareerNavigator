@@ -1,6 +1,6 @@
 # CareerRoadmap — Agentic AI Career Navigator
 
-A small system combining a FastAPI backend + React (Vite) frontend that ingests a resume (PDF) and generates a tailored career roadmap using LangChain/LangGraph agents.
+CareerNavigator is an AI-powered career roadmap generator that analyzes a user’s resume and target job role to create a personalized learning and upskilling plan. Built using FastAPI, LangGraph, and LLM-based agents, the system extracts skills from uploaded resumes, compares them with industry job requirements, identifies skill gaps, and generates a structured, time-aware career roadmap tailored to the user’s experience level and availability. A React-based frontend provides an intuitive interface for resume upload, role selection, and visual roadmap exploration, helping users plan their career growth in a clear and actionable way.
 
 ## Features
 
@@ -112,10 +112,3 @@ npm run dev
 1. Create an issue describing the change.
 2. Open a pull request with clear tests or manual steps to validate.
 
-## License
-
-This repo does not include an explicit license file. Add one (e.g., MIT) if you plan to open-source it.
-
-## Contact
-
-For questions, run the app locally and open an issue in this repository with reproduction steps.
