@@ -1,0 +1,438 @@
+(venv) D:\langchain\CareerRoadmap\backend>python main.py
+CWD: D:\langchain\CareerRoadmap\backend
+Resume path: resume.pdf
+Exists: True
+Is file: True
+Resume text length: 2695
+RAW LLM OUTPUT: {
+  "roadmap": [
+    {
+      "phase": "Phase 1: Foundational Backend with Python & SQL",
+      "duration_weeks": 5,
+      "focus_skills": [
+        "Django",
+        "RESTful API Design",
+        "SQL Databases (PostgreSQL)",
+        "Unit Testing",
+        "Clean Code Principles",
+        "Object-Oriented Programming (OOP)"
+      ],
+      "tasks": [
+        {
+          "task_id": "P1T1",
+          "description": "Learn Django basics, including models, views, URLs, and Django REST Framework for API development.",
+          "estimated_hours": 15,
+          "evidence_required": "Completed Django official tutorial sections relevant to APIs, notes on core DRF concepts, and initial project setup with a basic endpoint.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T2",
+          "description": "Set up PostgreSQL locally and integrate it as the database for a Django project.",
+          "estimated_hours": 5,
+          "evidence_required": "Database migration script, successful database connection test within Django, and a screenshot of data in PostgreSQL client.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T3",
+          "description": "Design and implement CRUD (Create, Read, Update, Delete) API endpoints for a blog's users, posts, and comments using Django REST Framework.",
+          "estimated_hours": 15,
+          "evidence_required": "GitHub repository with the Django project, API endpoints accessible and functional via Postman/cURL for all CRUD operations.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T4",
+          "description": "Write comprehensive Unit Tests for Django models, serializers, and API views to ensure correctness.",
+          "estimated_hours": 10,
+          "evidence_required": "Test suite with at least 80% code coverage, demonstrated by a coverage report and passing tests in the GitHub repository.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T5",
+          "description": "Refactor existing code to adhere to Clean Code and OOP principles, focusing on modularity, readability, and design patterns.",
+          "estimated_hours": 5,
+          "evidence_required": "Code review comments addressing identified principles, before-and-after code snippets illustrating improvements, and a brief explanation of design choices.",
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Build a RESTful API for a simple blog (users, posts, comments) using Django REST Framework and PostgreSQL, including user authentication."
+    },
+    {
+      "phase": "Phase 2: Advanced Backend with Java & NoSQL",
+      "duration_weeks": 6,
+      "focus_skills": [
+        "Spring Boot",
+        "NoSQL Databases (MongoDB, Redis)",
+        "Integration Testing",
+        "Software Design Patterns",
+        "Caching Strategies"
+      ],
+      "tasks": [
+        {
+          "task_id": "P2T1",
+          "description": "Learn Spring Boot fundamentals, including Dependency Injection, Controllers, Services, Repositories, and basic configuration.",
+          "estimated_hours": 20,
+          "evidence_required": "Completed Spring Boot 'Getting Started' guides, a small demo project showcasing core components (e.g., REST controller, service), and notes on DI concepts.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T2",
+          "description": "Set up MongoDB locally and integrate it with a Spring Boot application using Spring Data MongoDB.",
+          "estimated_hours": 10,
+          "evidence_required": "Spring Boot project with a working MongoDB connection, successful data insertion and retrieval via the application, and a screenshot of data in MongoDB Atlas/Compass.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T3",
+          "description": "Implement an E-commerce Product Catalog API with CRUD operations and search functionality (e.g., by keywords, filters) using Spring Boot and MongoDB.",
+          "estimated_hours": 15,
+          "evidence_required": "GitHub repository with the Spring Boot project, API endpoints accessible via Postman/cURL, and successful CRUD and search operations.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T4",
+          "description": "Implement Integration Tests for the Spring Boot API's endpoints and service layers to verify interactions between components.",
+          "estimated_hours": 10,
+          "evidence_required": "Integration test suite with passing tests covering major API endpoints and service logic, demonstrated by test reports.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T5",
+          "description": "Introduce Redis for basic caching of product details to improve API performance.",
+          "estimated_hours": 5,
+          "evidence_required": "Code demonstrating Redis caching configuration and usage in Spring Boot, log output showing cache hits/misses, and Redis CLI verification of cached data.",
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Develop an E-commerce Product Catalog API with search functionality using Spring Boot and MongoDB. Implement basic caching with Redis."
+    },
+    {
+      "phase": "Phase 3: Containerization, Deployment & Security",
+      "duration_weeks": 4,
+      "focus_skills": [
+        "Docker",
+        "Cloud Platforms (AWS/GCP)",
+        "API Security Principles",
+        "Microservices Architecture",
+        "Performance Optimization",
+        "System Design"
+      ],
+      "tasks": [
+        {
+          "task_id": "P3T1",
+          "description": "Containerize the Spring Boot E-commerce API using Docker.",
+          "estimated_hours": 10,
+          "evidence_required": "Dockerfile for the Spring Boot application, successful `docker build` and `docker run` locally, and optionally, a public Docker Hub image.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T2",
+          "description": "Select a cloud platform (AWS or GCP) and learn basic deployment strategies for containerized applications (e.g., EC2/ECS or Cloud Run).",
+          "estimated_hours": 10,
+          "evidence_required": "Notes summarizing the chosen cloud platform's deployment options for containers, and a created free-tier account screenshot.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T3",
+          "description": "Deploy the containerized Spring Boot application to the chosen cloud platform.",
+          "estimated_hours": 10,
+          "evidence_required": "Publicly accessible URL of the deployed application, and a screenshot of the cloud console showing the running service.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T4",
+          "description": "Implement JWT (JSON Web Token) based API Security for the deployed application.",
+          "estimated_hours": 5,
+          "evidence_required": "API endpoints secured with JWT, and a successful authentication flow demonstrated via Postman/cURL with token generation and usage.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T5",
+          "description": "Conduct basic performance optimization and load testing on the deployed application, identifying and improving one bottleneck.",
+          "estimated_hours": 5,
+          "evidence_required": "Load testing report (e.g., from JMeter, Locust) showing response times and throughput, and documented evidence of an identified and improved performance bottleneck.",
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Containerize the Spring Boot E-commerce API and deploy it to a cloud platform (e.g., AWS EC2/ECS or GCP Cloud Run). Implement JWT authentication and basic load testing."
+    },
+    {
+      "phase": "Phase 4: Distributed Systems & Scalability",
+      "duration_weeks": 5,
+      "focus_skills": [
+        "Message Queues (Kafka, RabbitMQ)",
+        "Distributed Systems",
+        "Concurrency",
+        "CI/CD Tools",
+        "Kubernetes",
+        "System Design",
+        "System Scalability"
+      ],
+      "tasks": [
+        {
+          "task_id": "P4T1",
+          "description": "Integrate a message queue (e.g., RabbitMQ) into the Spring Boot E-commerce API for asynchronous processing (e.g., order creation, email notifications).",
+          "estimated_hours": 15,
+          "evidence_required": "Spring Boot application successfully sending and consuming messages, log output demonstrating asynchronous flow, and a screenshot of the RabbitMQ management UI showing queues/messages.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T2",
+          "description": "Learn about key Distributed Systems concepts such as transaction patterns (e.g., Saga), eventual consistency, and the CAP theorem.",
+          "estimated_hours": 10,
+          "evidence_required": "Comprehensive notes on distributed systems concepts, and a short presentation or explanation of a specific distributed transaction pattern.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T3",
+          "description": "Set up a basic CI/CD pipeline (e.g., GitHub Actions) for the Spring Boot project to automate builds and tests.",
+          "estimated_hours": 10,
+          "evidence_required": "GitHub repository with a `.github/workflows` file, and screenshots of successful CI/CD pipeline runs for builds and tests.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T4",
+          "description": "Understand basic Kubernetes concepts, including Pods, Deployments, Services, and Ingress for container orchestration.",
+          "estimated_hours": 10,
+          "evidence_required": "Detailed notes on Kubernetes architecture and core components, and a simple YAML manifest for a Pod or Deployment.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T5",
+          "description": "Analyze system scalability challenges and propose concrete solutions for the E-commerce project, considering various scaling dimensions.",
+          "estimated_hours": 5,
+          "evidence_required": "A short document outlining identified scalability bottlenecks (e.g., database, API) and proposed solutions (e.g., sharding, horizontal scaling, load balancing, message queues).",
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Enhance the Spring Boot E-commerce API with asynchronous order processing using RabbitMQ. Set up a basic CI/CD pipeline for automated build and deploy to a mock environment. Discuss Kubernetes concepts for scaling."        
+    }
+  ]
+}
+{'user_id': 'user_123', 'target_role': 'Backend Developer', 'experience_level': 'Mid', 'availability_hours_per_week': 10, 'resume_path': 'resume.pdf', 'resume_text': 'Shreya Kulkarni\n+ Pune # kulkarnishreya04@gmail.com (cid:132) +91 8007733945 (cid:18) shreya-builds.vercel.app\n(cid:240) shreya-kulkarni18 § kulshreya03\nCAREER OBJECTIVE\nGoal-oriented BTech student with a strong foundation in software development, backend web technologies, and cloud\ncomputing. Seekinganopportunitytobuildanddeployscalableapplicationswhileexpandingmytechnicalexpertise. Iuse\na creative approach to solve a problem and come up with innovative ideas.\nEDUCATION\nPimpri Chinchwad College of Engineering 2023 – 2026\nBachelors of Technology in Computer Science\n◦ CGPA: 9.14\nPimpri Chinchwad Polytechnic 2020 – 2023\nDiploma in Computer Science\n◦ Percentage: 94\nEXPERIENCE\nTech Intern Pune, IN\nFITTR June 2024 – Jul 2024\n◦ Successfully completed an industrial training with SQUATS Fitness Private Limited, Pune (FITTR) as an Intern.\n◦ WorkedwithplatformteamtogainseverallearningsuchasWebsiteDevelopment,Deploymenttocloudinfrastructure,\nBlue Green Deployment and developed multiple skills including monitoring the AWS cloud infrastructure.\nPROJECTS\nAttendEase: Event Attendance Tracking MERN Stack\n◦ Developed a full-stack web app to digitalize event registration and attendance tracking.\n◦ Built REST APIs in Express.js, implemented JWT-based user authentication, managed dynamic MongoDB schemas\nfor events and users.\nCareerQuest: A Voice-Enabled Career Predictor Bootstrap,JavaScript,Python\n◦ Designed a career guidance system leveraging the Big Five OCEAN personality model and implemented machine\nlearning (XGBoost) for career predictions with 83% accuracy in predictions\n◦ Builtaresponsivewebsiteenablingahands-freeexperiencewithvoicecommandfunctionalityviatheWebSpeechAPI.\nOWASP Intelligent Intrusion Detection System Java\n◦ Designed the system to detect polluted network packets caused by malicious attacks.\n◦ Implemented attacker identification logic to trace the exact source of intrusion and eliminate attackers from network.\nDailyDigest – News Aggregator App Node.js,Express.js,React\n◦ Built a responsive web application that fetches and displays real-time news from multiple sources using the NewsAPI.\n◦ Implemented search filters, category-based rendering, and error handling for failed API requests.\n◦ Deployed on Vercel and Render for public access: https://news-aggregator-ochre-pi.vercel.app/\nTECHNICAL SKILLS\nLanguages: Java, Python, SQL, JavaScript, SQL\nFrameworks: Node.js, Express.js, Flask\nBackend: REST APIs, JWT, MySQL, MongoDB\nCloud: AWS, Blue-Green Deployment\nTools: Git, Linux, GitHub, VSCode, Postman, Vercel, Render\nCore CS: OOP, OS, DBMS, CN, DSA, SDLC\nCERTIFICATIONS\n◦ AWS Certified Cloud Practitioner\n◦ Python for Cybersecurity - Udemy\n◦ Java - IIT Bombay', 'resume_skills': {'languages': ['Java', 'JavaScript', 'Python', 'SQL'], 'frameworks': ['Bootstrap', 'Express.js', 'Flask', 'Node.js', 'React'], 'databases': ['MongoDB', 'MySQL'], 'cloud': ['AWS'], 'tools': ['Git', 'GitHub', 'Linux', 'Postman', 'Render', 'VSCode', 'Vercel'], 'concepts': ['Blue-Green Deployment', 'CN', 'DBMS', 'DSA', 'Deployment', 'JWT', 'Machine Learning', 'Monitoring', 'OOP', 'OS', 'REST APIs', 'SDLC']}, 'job_requirements': {'must_have': ['Django', 'Express.js', 'Git', 'Integration Testing', 'Java', 'NoSQL Databases (MongoDB, Redis)', 'Node.js', 'Python', 'RESTful API Design', 'SQL Databases (PostgreSQL, MySQL)', 'Spring Boot', 'Unit Testing'], 'good_to_have': ['CI/CD Tools', 'Caching Strategies', 'Cloud Platforms (AWS, Azure, GCP)', 'Docker', 'GraphQL', 'Kubernetes', 'Message Queues (Kafka, RabbitMQ)', 'Microservices Architecture', 'Performance Optimization'], 'concepts': ['API Security Principles', 'Algorithms', 'Clean Code Principles', 'Concurrency', 'Data Structures', 'Distributed Systems', 'Functional Programming', 'Object-Oriented Programming (OOP)', 'Software Design Patterns', 'System Design', 'System Scalability']}, 'skill_gap': {'missing_skills': ['Django', 'Integration Testing', 'NoSQL Databases (MongoDB, Redis)', 'RESTful API Design', 'SQL Databases (PostgreSQL, MySQL)', 'Spring Boot', 'Unit Testing'], 'partial_skills': ['API Security Principles', 'Algorithms', 'CI/CD Tools', 'Caching Strategies', 'Clean Code Principles', 'Cloud Platforms (AWS, Azure, GCP)', 'Concurrency', 'Data Structures', 'Distributed Systems', 'Docker', 'Functional Programming', 'GraphQL', 'Kubernetes', 'Message Queues (Kafka, RabbitMQ)', 'Microservices Architecture', 'Object-Oriented Programming (OOP)', 'Performance Optimization', 'Software Design Patterns', 'System Design', 'System Scalability'], 'strong_skills': ['Express.js', 'Git', 'Java', 'Node.js', 'Python']}, 'roadmap': [{'phase': 'Phase 1: Foundational Backend with Python & SQL', 'duration_weeks': 5, 'focus_skills': ['Django', 'RESTful API Design', 'SQL Databases (PostgreSQL)', 'Unit Testing', 'Clean Code Principles', 'Object-Oriented Programming (OOP)'], 'tasks': [{'task_id': 'P1T1', 'description': 'Learn Django basics, including models, views, URLs, and Django REST Framework for API development.', 'estimated_hours': 15, 'evidence_required': 'Completed Django official tutorial sections relevant to APIs, notes on core DRF concepts, and initial project setup with a basic endpoint.', 'status': 'pending'}, {'task_id': 'P1T2', 'description': 'Set up PostgreSQL locally and integrate it as the database for a Django project.', 'estimated_hours': 5, 'evidence_required': 'Database migration script, successful database connection test within Django, and a screenshot of data in PostgreSQL client.', 'status': 'pending'}, {'task_id': 'P1T3', 'description': "Design and implement CRUD (Create, Read, Update, Delete) API endpoints for a blog's users, posts, and comments using Django REST Framework.", 'estimated_hours': 15, 'evidence_required': 'GitHub repository with the Django project, API endpoints accessible and functional via Postman/cURL for all CRUD operations.', 'status': 'pending'}, {'task_id': 'P1T4', 'description': 'Write comprehensive Unit Tests for Django models, serializers, and API views to ensure correctness.', 'estimated_hours': 10, 'evidence_required': 'Test suite with at least 80% code coverage, demonstrated by a coverage report and passing tests in the GitHub repository.', 'status': 'pending'}, {'task_id': 'P1T5', 'description': 'Refactor existing code to adhere to Clean Code and OOP principles, focusing on modularity, readability, and design patterns.', 'estimated_hours': 5, 'evidence_required': 'Code review comments addressing identified principles, before-and-after code snippets illustrating improvements, and a brief explanation of design choices.', 'status': 'pending'}], 'mini_project': 'Build a RESTful API for a simple blog (users, posts, comments) using Django REST Framework and PostgreSQL, including user authentication.'}, {'phase': 'Phase 2: Advanced Backend with Java & NoSQL', 'duration_weeks': 6, 'focus_skills': ['Spring Boot', 'NoSQL Databases (MongoDB, Redis)', 'Integration Testing', 'Software Design Patterns', 'Caching Strategies'], 'tasks': [{'task_id': 'P2T1', 'description': 'Learn Spring Boot fundamentals, including Dependency Injection, Controllers, Services, Repositories, and basic configuration.', 'estimated_hours': 20, 'evidence_required': "Completed Spring Boot 'Getting Started' guides, a small demo project showcasing core components (e.g., REST controller, service), and notes on DI concepts.", 'status': 'pending'}, {'task_id': 'P2T2', 'description': 'Set up MongoDB locally and integrate it with a Spring Boot application using Spring Data MongoDB.', 'estimated_hours': 10, 'evidence_required': 'Spring Boot project with a working MongoDB connection, successful data insertion and retrieval via the application, and a screenshot of data in MongoDB Atlas/Compass.', 'status': 'pending'}, {'task_id': 'P2T3', 'description': 'Implement an E-commerce Product Catalog API with CRUD operations and search functionality (e.g., by keywords, filters) using Spring Boot and MongoDB.', 'estimated_hours': 15, 'evidence_required': 'GitHub repository with the Spring Boot project, API endpoints accessible via Postman/cURL, and successful CRUD and search operations.', 'status': 'pending'}, {'task_id': 'P2T4', 'description': "Implement Integration Tests for the Spring Boot API's endpoints and service layers to verify interactions between components.", 'estimated_hours': 10, 'evidence_required': 'Integration test suite with passing tests covering major API endpoints and service logic, demonstrated by test reports.', 'status': 'pending'}, {'task_id': 'P2T5', 'description': 'Introduce Redis for basic caching of product details to improve API performance.', 'estimated_hours': 5, 'evidence_required': 'Code demonstrating Redis caching configuration and usage in Spring Boot, log output showing cache hits/misses, and Redis CLI verification of cached data.', 'status': 'pending'}], 'mini_project': 'Develop an E-commerce Product Catalog API with search functionality using Spring Boot and MongoDB. Implement basic caching with Redis.'}, {'phase': 'Phase 3: Containerization, Deployment & Security', 'duration_weeks': 4, 'focus_skills': ['Docker', 'Cloud Platforms (AWS/GCP)', 'API Security Principles', 'Microservices Architecture', 'Performance Optimization', 'System Design'], 'tasks': [{'task_id': 'P3T1', 'description': 'Containerize the Spring Boot E-commerce API using Docker.', 'estimated_hours': 10, 'evidence_required': 'Dockerfile for the Spring Boot application, successful `docker build` and `docker run` locally, and optionally, a public Docker Hub image.', 'status': 'pending'}, {'task_id': 'P3T2', 'description': 'Select a cloud platform (AWS or GCP) and learn basic deployment strategies for containerized applications (e.g., EC2/ECS or Cloud Run).', 'estimated_hours': 10, 'evidence_required': "Notes summarizing the chosen cloud platform's deployment options for containers, and a created free-tier account screenshot.", 'status': 'pending'}, {'task_id': 'P3T3', 'description': 'Deploy the containerized Spring Boot application to the chosen cloud platform.', 'estimated_hours': 10, 'evidence_required': 'Publicly accessible URL of the deployed application, and a screenshot of the cloud console showing the running service.', 'status': 'pending'}, {'task_id': 'P3T4', 'description': 'Implement JWT (JSON Web Token) based API Security for the deployed application.', 'estimated_hours': 5, 'evidence_required': 'API endpoints secured with JWT, and a successful authentication flow demonstrated via Postman/cURL with token generation and usage.', 'status': 'pending'}, {'task_id': 'P3T5', 'description': 'Conduct basic performance optimization and load testing on the deployed application, identifying and improving one bottleneck.', 'estimated_hours': 5, 'evidence_required': 'Load testing report (e.g., from JMeter, Locust) showing response times and throughput, and documented evidence of an identified and improved performance bottleneck.', 'status': 'pending'}], 'mini_project': 'Containerize the Spring Boot E-commerce API and deploy it to a cloud platform (e.g., AWS EC2/ECS or GCP Cloud Run). Implement JWT authentication and basic load testing.'}, {'phase': 'Phase 4: Distributed Systems & Scalability', 'duration_weeks': 5, 'focus_skills': ['Message Queues (Kafka, RabbitMQ)', 'Distributed Systems', 'Concurrency', 'CI/CD Tools', 'Kubernetes', 'System Design', 'System Scalability'], 'tasks': [{'task_id': 'P4T1', 'description': 'Integrate a message queue (e.g., RabbitMQ) into the Spring Boot E-commerce API for asynchronous processing (e.g., order creation, email notifications).', 'estimated_hours': 15, 'evidence_required': 'Spring Boot application successfully sending and consuming messages, log output demonstrating asynchronous flow, and a screenshot of the RabbitMQ management UI showing queues/messages.', 'status': 'pending'}, {'task_id': 'P4T2', 'description': 'Learn about key Distributed Systems concepts such as transaction patterns (e.g., Saga), eventual consistency, and the CAP theorem.', 'estimated_hours': 10, 'evidence_required': 'Comprehensive notes on distributed systems concepts, and a short presentation or explanation of a specific distributed transaction pattern.', 'status': 'pending'}, {'task_id': 'P4T3', 'description': 'Set up a basic CI/CD pipeline (e.g., GitHub Actions) for the Spring Boot project to automate builds and tests.', 'estimated_hours': 10, 'evidence_required': 'GitHub repository with a `.github/workflows` file, and screenshots of successful CI/CD pipeline runs for builds and tests.', 'status': 'pending'}, {'task_id': 'P4T4', 'description': 'Understand basic Kubernetes concepts, including Pods, Deployments, Services, and Ingress for container orchestration.', 'estimated_hours': 10, 'evidence_required': 'Detailed notes on Kubernetes architecture and core components, and a simple YAML manifest for a Pod or Deployment.', 'status': 'pending'}, {'task_id': 'P4T5', 'description': 'Analyze system scalability challenges and propose concrete solutions for the E-commerce project, considering various scaling dimensions.', 'estimated_hours': 5, 'evidence_required': 'A short document outlining identified scalability bottlenecks (e.g., database, API) and proposed solutions (e.g., sharding, horizontal scaling, load balancing, message queues).', 'status': 'pending'}], 'mini_project': 'Enhance the Spring Boot E-commerce API with asynchronous order processing using RabbitMQ. Set up a basic CI/CD pipeline for automated build and deploy to a mock environment. Discuss Kubernetes concepts for scaling.'}], 'current_step': 'roadmap_generated', 'is_roadmap_generated': True}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Resume path: uploads\28179b9f-55e5-4b94-8cdf-55078c80bf5b_SHREYA_KULKARNI.pdf
+Exists: True
+Is file: True
+Resume text length: 2695
+RAW LLM OUTPUT: {"roadmap": [
+    {
+      "phase": "Phase 1: Core Programming Foundations (Python)",
+      "duration_weeks": 5,
+      "focus_skills": ["Programming Language", "Algorithms", "Data Structures", "Clean Code", "Object-Oriented Design"],
+      "tasks": [
+        {
+          "task_id": "P1T1",
+          "description": "Complete an online Python beginner course covering syntax, data types, control flow, functions, and modules.",
+          "estimated_hours": 10,
+          "evidence_required": "Course completion certificate or link to completed exercises/notebooks.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T2",
+          "description": "Solve 10-15 easy algorithm problems on platforms like LeetCode or HackerRank, focusing on arrays, strings, and basic loops.",
+          "estimated_hours": 8,
+          "evidence_required": "Links to accepted solutions on problem platforms.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T3",
+          "description": "Implement common data structures (e.g., linked list, stack, queue) from scratch in Python.",     
+          "estimated_hours": 8,
+          "evidence_required": "GitHub repository with implementations and basic tests.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T4",
+          "description": "Learn and apply OOP principles (encapsulation, inheritance, polymorphism) by refactoring a small procedural script.",
+          "estimated_hours": 6,
+          "evidence_required": "GitHub repository with before/after code, demonstrating OOP application.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P1T5",
+          "description": "Read 'Clean Code' principles chapter on naming, functions, and comments, then apply them to your recent code.",
+          "estimated_hours": 8,
+          "evidence_required": "Self-reflection document detailing applied principles and improved code snippets.",        
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Develop a command-line 'Contact Book' application that allows adding, viewing, updating, and deleting contacts, demonstrating basic data storage (in-memory list of objects) and OOP."
+    },
+    {
+      "phase": "Phase 2: Web Framework & RESTful APIs",
+      "duration_weeks": 6,
+      "focus_skills": ["Web Framework", "RESTful APIs", "Clean Code", "Object-Oriented Design"],
+      "tasks": [
+        {
+          "task_id": "P2T1",
+          "description": "Complete a Flask or FastAPI beginner tutorial, learning to set up a basic web server, define routes, and handle requests/responses.",
+          "estimated_hours": 10,
+          "evidence_required": "Link to a functional 'Hello World' API deployed locally.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T2",
+          "description": "Understand HTTP methods (GET, POST, PUT, DELETE) and their appropriate use in RESTful API design.",
+          "estimated_hours": 6,
+          "evidence_required": "Short written summary on HTTP methods and example usage for a 'User' resource.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T3",
+          "description": "Design and implement a simple REST API for managing a resource (e.g., 'Books'), supporting all CRUD operations with in-memory data storage.",
+          "estimated_hours": 16,
+          "evidence_required": "GitHub repository with the API code, cURL commands or Postman collection to test endpoints.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T4",
+          "description": "Refactor your API codebase to follow better project structure and apply basic OOP principles for routes and data models.",
+          "estimated_hours": 10,
+          "evidence_required": "Updated GitHub repository showing improved structure.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P2T5",
+          "description": "Learn about JSON data format and validate your API's request and response bodies using online tools.",
+          "estimated_hours": 6,
+          "evidence_required": "Screenshots of JSON validation for API requests/responses.",
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Build a simple 'Task Management API' using Flask/FastAPI, allowing users to create, retrieve, update, and delete tasks. Store tasks in a Python dictionary (in-memory) for now."
+    },
+    {
+      "phase": "Phase 3: SQL Databases & ORM Integration",
+      "duration_weeks": 6,
+      "focus_skills": ["SQL Databases", "Database Design", "Web Framework", "RESTful APIs", "API Security", "Clean Code"], 
+      "tasks": [
+        {
+          "task_id": "P3T1",
+          "description": "Learn SQL basics: DDL (CREATE TABLE), DML (INSERT, SELECT, UPDATE, DELETE) for PostgreSQL.",     
+          "estimated_hours": 8,
+          "evidence_required": "Link to SQLFiddle/pgAdmin screenshots showing successful query execution.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T2",
+          "description": "Design a relational database schema (ERD) for a simple application (e.g., blog, e-commerce) with at least 3 tables, including relationships.",
+          "estimated_hours": 8,
+          "evidence_required": "UML diagram or draw.io link of the ERD, along with CREATE TABLE SQL scripts.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T3",
+          "description": "Integrate an ORM (e.g., SQLAlchemy) with your web framework. Connect your API to a local PostgreSQL database.",
+          "estimated_hours": 12,
+          "evidence_required": "GitHub repository demonstrating ORM setup and successful database connection.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T4",
+          "description": "Refactor your 'Task Management API' to use the ORM and persist data in PostgreSQL instead of in-memory storage.",
+          "estimated_hours": 12,
+          "evidence_required": "Updated GitHub repository with database integration, cURL/Postman collection for testing persistence.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P3T5",
+          "description": "Implement basic API security: add a simple API key or token-based authentication (hardcoded for now) to protect at least one endpoint.",
+          "estimated_hours": 8,
+          "evidence_required": "GitHub repository with authentication logic, and cURL commands showing protected endpoint access.",
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Enhance the 'Task Management API' to include user registration and login (dummy authentication). Each task should belong to a specific user, and users can only manage their own tasks. Persist users and tasks in a PostgreSQL database."
+    },
+    {
+      "phase": "Phase 4: Unit Testing & Containerization",
+      "duration_weeks": 5,
+      "focus_skills": ["Unit Testing", "Docker", "CI/CD", "Clean Code"],
+      "tasks": [
+        {
+          "task_id": "P4T1",
+          "description": "Learn the basics of unit testing in Python (e.g., `unittest` or `pytest`). Write tests for simple functions.",
+          "estimated_hours": 8,
+          "evidence_required": "GitHub repository with example functions and corresponding unit tests.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T2",
+          "description": "Write unit tests for at least 50% of the API endpoints (e.g., happy path for GET, POST, PUT, DELETE) of your mini-project.",
+          "estimated_hours": 12,
+          "evidence_required": "GitHub repository showing test files and a screenshot of test coverage report (e.g., using `coverage.py`).",
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T3",
+          "description": "Containerize your API application using Docker. Create a `Dockerfile` to build an image for your backend.",
+          "estimated_hours": 10,
+          "evidence_required": "GitHub repository with `Dockerfile`, and instructions to build and run the container locally.",
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T4",
+          "description": "Containerize your PostgreSQL database using Docker. Use `docker-compose` to run both your API and database containers.",
+          "estimated_hours": 8,
+          "evidence_required": "GitHub repository with `docker-compose.yml` that brings up both services successfully.",   
+          "status": "pending"
+        },
+        {
+          "task_id": "P4T5",
+          "description": "Set up a basic CI pipeline (e.g., GitHub Actions) to run your unit tests automatically on every push to your repository.",
+          "estimated_hours": 8,
+          "evidence_required": "GitHub repository with `.github/workflows` configuration and a link to a successful CI run.",
+          "status": "pending"
+        }
+      ],
+      "mini_project": "Refactor the 'Task Management API' to be fully containerized using Docker and Docker Compose. Implement comprehensive unit tests for all core API logic and set up GitHub Actions to run these tests automatically."
+    }
+  ]
+}
